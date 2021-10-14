@@ -2,6 +2,10 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
 }
 body{
     max-width: 900px;
