@@ -24,9 +24,12 @@ body{
 
 .title{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     padding: 10px 0px 10px 0px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 h1{
@@ -48,17 +51,17 @@ h3{
 .big_text_days , .big_text_hours , .big_text_mins , .big_text_sec{
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 2;
+    line-height: 1;
 }
 
 p{
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 5px 0px;
     font-size: 1.5rem;
     text-align: center;
 }
 .spantext{
     color: #103c28;
-    margin: 0px 3rem;
+    margin: 0px 1rem;
     font-size: 1.5rem;
     font-style: italic;
 }
