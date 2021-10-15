@@ -11,24 +11,28 @@ body{
     margin: 0px auto;
     background-color:whitesmoke;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     align-items: center;
     margin-top: 3rem;
 }
-.main_container{
+
+.flex--one{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex--two{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .title{
-    display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    padding-bottom: 10px;
-    
-    flex-direction: column;
+    padding-bottom: 10px; 
     align-content: center;
     align-items: center;
 }
@@ -69,4 +73,33 @@ p{
 }
 .text_sec{
     color : #005259;
+}
+
+table{
+    /*border: 1px solid black;*/
+    border-spacing: unset;
+    width: 75%;
+    margin: auto;
+}
+
+tr, td {
+    /*border: 1px solid black;*/
+    font-size: 1.5rem;
+}
+
+.description {
+    width: 30%;
+    
+}
+ 
+.data {
+    width: 70%;
+}
+
+.odd {
+    background-color: beige;
+}
+
+.even {
+    background-color: blueviolet;
 }
