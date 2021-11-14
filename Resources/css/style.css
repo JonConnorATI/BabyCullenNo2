@@ -50,7 +50,9 @@ h1{
 
 h3{
     font-size: 2rem;
+    font-weight: bold;
     color: #723d5e;
+    margin: 1.5rem;
 }
 
 .big_text_days , .big_text_hours , .big_text_mins , .big_text_sec{
