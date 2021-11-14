@@ -9,7 +9,7 @@
 body{
     max-width: 900px;
     margin: 0px auto;
-    background-color:whitesmoke;
+    background-color: #f0bec6;
     background-size: cover;
     /*display: flex;*/
     /*flex-direction: column;*/
@@ -45,7 +45,7 @@ h1{
 }
 
 .title--image {
-    max-width: 75%;
+    max-width: 40%;
 }
 
 h3{
@@ -57,6 +57,8 @@ h3{
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1;
+    color: #723d5e;
+    
 }
 
 p{
@@ -64,15 +66,19 @@ p{
     font-size: 1.5rem;
     text-align: center;
     max-width: 75%;
+    color: #723d5e;
+    ;
 }
 .spantext{
-    color: #103c28;
+    color: #723d5e;
+    
     margin: 0px 1rem;
     font-size: 1.5rem;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 .text_sec{
-    color : #005259;
+    color: #723d5e;
+    
 }
 
 table{
@@ -82,12 +88,19 @@ table{
     margin: auto;
 }
 
+tr {
+    height: 4rem;
+}
+
 tr, td {
     /*border: 1px solid black;*/
     font-size: 1.5rem;
+    color: #723d5e;
+    
+    
 }
 
-.description {
+.descriptor {
     width: 30%;
     
 }
@@ -97,9 +110,9 @@ tr, td {
 }
 
 .odd {
-    background-color: beige;
+    background-color:#f0bec6;
 }
 
 .even {
-    background-color: blueviolet;
+    background-color: #f0bec6;
 }
