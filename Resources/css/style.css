@@ -69,7 +69,12 @@ p{
     text-align: center;
     max-width: 75%;
     color: #723d5e;
-    ;
+    
+}
+
+#bold {
+    font-weight: bolder;
+    font-size: 1.6rem;
 }
 .spantext{
     color: #723d5e;
